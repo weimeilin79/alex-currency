@@ -1,0 +1,1 @@
+currencyexchangeIntent What is {currency} for {amount} yen

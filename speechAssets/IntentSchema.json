@@ -1,0 +1,23 @@
+{
+  "intents": [
+    {
+      "intent": "AMAZON.PauseIntent"
+    },
+    {
+      "intent": "AMAZON.ResumeIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "CURRENCYTO",
+          "type": "LIST_OF_Currency"
+        },
+        {
+          "name": "AMOUNT",
+          "type": "AMAZON.NUMBER"
+        }
+      ],
+      "intent": "currencyexchangeIntent"
+    }
+  ]
+}
