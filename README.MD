@@ -5,7 +5,7 @@ alexa-currency-change
 
 ## Example Commands
 
-* Alexa, ask demo, What is the currency rate for {AMOUNT} in {CURRENCYTO}
+* Alexa, ask robot, What is the currency rate for {AMOUNT} in {CURRENCYTO}
 
 _The amount in USD is_
 
@@ -20,9 +20,9 @@ Custom Slot Types
 3. Use the [SampleUtterances.txt](speechAssets/SampleUtterances.txt) file to the define the utterances
 4. Configure values in the Lambda
 
-- ALEXA_APP_ID
-- THREESCALE_API_TOKEN
-- BASE_URL
+   - ALEXA_APP_ID
+   - THREESCALE_API_TOKEN
+   - BASE_URL
 
 5. Build the project into a single jar with all of the dependencies included and upload as a Lambda function
 
